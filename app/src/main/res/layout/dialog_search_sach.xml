@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/white_strokeblue_corner15"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:hint="Số trang sách"
+        android:layout_marginBottom="5dp"
+        app:endIconMode="clear_text"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:hintTextColor="@color/black"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/purple_700">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialogSearchSach_ed_search"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="Search"
+        android:background="@drawable/ripperblue_black_coner8"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogSearchSach_btn_search"
+        />
+</LinearLayout>
